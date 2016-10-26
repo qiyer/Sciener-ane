@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="true" version="3">
+  <includeClasses>
+    <classEntry path="com.door.ane.ANESyncEvent"/>
+    <classEntry path="com.door.ane.DoorInterface"/>
+    <classEntry path="com.xiawu.ane.BaoruanInterface"/>
+    <classEntry path="com.door.ane.BaseInterface"/>
+    <classEntry path="com.xiawu.ane.E7wanInterface"/>
+    <classEntry path="com.xiawu.ane.FeitaoInterface"/>
+    <classEntry path="com.xiawu.ane.G3366Interface"/>
+    <classEntry path="com.xiawu.ane.GfankInterface"/>
+    <classEntry path="com.xiawu.ane.HuaweiInterface"/>
+    <classEntry path="com.xiawu.ane.KupaiInterface"/>
+    <classEntry path="com.xiawu.ane.LenovoInterface"/>
+    <classEntry path="com.xiawu.ane.MukunInterface"/>
+    <classEntry path="com.xiawu.ane.MumayiInterface"/>
+    <classEntry path="com.xiawu.ane.MuzhichuanmeiInterface"/>
+    <classEntry path="com.xiawu.ane.MuzhiwanInterface"/>
+    <classEntry path="com.xiawu.ane.OppoInterface"/>
+    <classEntry path="com.xiawu.ane.PaoJiaoInterface"/>
+    <classEntry path="com.xiawu.ane.PipawInterface"/>
+    <classEntry path="com.xiawu.ane.TencentInterface"/>
+    <classEntry path="com.xiawu.ane.TraceInterface"/>
+    <classEntry path="com.xiawu.ane.Wan37Interface"/>
+    <classEntry path="com.door.ane.ANEHelper"/>
+    <classEntry path="com.xiawu.ane.XiaomiInterface"/>
+    <classEntry path="com.xiawu.ane.YayaInterface"/>
+    <classEntry path="com.xiawu.ane.ShangfangInterface"/>
+    <classEntry path="com.xiawu.ane.DownjoyInterface"/>
+    <classEntry path="com.xiawu.ane.Qihoo360Interface"/>
+    <classEntry path="com.xiawu.ane.HTCInterface"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,0 +1,8 @@
+<platform xmlns="http://ns.adobe.com/air/extension/23.0">
+    <description > An optional description</description> 
+    <copyright>2012 (optional)</copyright> 
+    <linkerOptions> 
+        <option>-framework Foundation</option>
+        <option>-framework CoreBluetooth</option>
+    </linkerOptions>
+</platform>

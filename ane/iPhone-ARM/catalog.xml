@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/door/ane/BaseInterface" mod="1476178975000" signatureChecksum="1581996270" >
+        <def id="com.door.ane:BaseInterface" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="_14dfe26c29caaed1a355cf3739e68843e541fdabe1220c297282b14c4da857ca_flash_display_Sprite" mod="1477365243930" signatureChecksum="440367935" >
+        <def id="_14dfe26c29caaed1a355cf3739e68843e541fdabe1220c297282b14c4da857ca_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/door/ane/ANESyncEvent" mod="1476178848000" signatureChecksum="1889815149" >
+        <def id="com.door.ane:ANESyncEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/door/ane/ANEHelper" mod="1476460455000" signatureChecksum="2215816680" >
+        <def id="com.door.ane:ANEHelper" /> 
+        <dep id="com.door.ane:DoorInterface" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="com.door.ane:ANESyncEvent" type="e" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="com.door.ane:DoorInterface" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="com.door.ane:ANESyncEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/door/ane/DoorInterface" mod="1477365219000" signatureChecksum="3084043004" >
+        <def id="com.door.ane:DoorInterface" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.door.ane:BaseInterface" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="c95de298e1286dfa38b0bffee1c2ae2248dc81e7046165424369f6914218b9c4"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

@@ -1,0 +1,2 @@
+
+"/Users/qiye/Downloads/AIRSDK_Compiler/bin/adt" -package -tsa none -storetype pkcs12 -keystore test.p12 -storepass 123456 -target ane door.ane extension.xml -swc ANELbPro.swc -platform iPhone-ARM -C iPhone-ARM libDoorAne.a libTTLock.a library.swf catalog.xml -platformoptions platformoptions.xml Foundation.framework CoreBluetooth.framework

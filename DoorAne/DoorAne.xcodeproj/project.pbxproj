@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731D5A871DACEF6D00066EFC /* DoorAne.m in Sources */ = {isa = PBXBuildFile; fileRef = 731D5A861DACEF6D00066EFC /* DoorAne.m */; };
+		731D5A881DACEF6D00066EFC /* DoorAne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 731D5A851DACEF6D00066EFC /* DoorAne.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		731D5A911DACEFB200066EFC /* FRETypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 731D5A901DACEFB200066EFC /* FRETypeConversion.m */; };
+		731D5A981DACF02600066EFC /* libTTLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 731D5A931DACF02600066EFC /* libTTLock.a */; };
+		731D5A991DACF02600066EFC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 731D5A941DACF02600066EFC /* README.md */; };
+		731D5A9C1DACF07A00066EFC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731D5A9B1DACF07A00066EFC /* CoreBluetooth.framework */; };
+		731D5A9E1DACF0F100066EFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731D5A9D1DACF0F100066EFC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		731D5A801DACEF6D00066EFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				731D5A881DACEF6D00066EFC /* DoorAne.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		731D5A821DACEF6D00066EFC /* libDoorAne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDoorAne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		731D5A851DACEF6D00066EFC /* DoorAne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorAne.h; sourceTree = "<group>"; };
+		731D5A861DACEF6D00066EFC /* DoorAne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorAne.m; sourceTree = "<group>"; };
+		731D5A8E1DACEFB200066EFC /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		731D5A8F1DACEFB200066EFC /* FRETypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRETypeConversion.h; sourceTree = "<group>"; };
+		731D5A901DACEFB200066EFC /* FRETypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRETypeConversion.m; sourceTree = "<group>"; };
+		731D5A931DACF02600066EFC /* libTTLock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTTLock.a; sourceTree = "<group>"; };
+		731D5A941DACF02600066EFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		731D5A951DACF02600066EFC /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		731D5A961DACF02600066EFC /* TTLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLock.h; sourceTree = "<group>"; };
+		731D5A971DACF02600066EFC /* TTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUtils.h; sourceTree = "<group>"; };
+		731D5A9B1DACF07A00066EFC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		731D5A9D1DACF0F100066EFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731D5A7F1DACEF6D00066EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D5A9E1DACF0F100066EFC /* Foundation.framework in Frameworks */,
+				731D5A9C1DACF07A00066EFC /* CoreBluetooth.framework in Frameworks */,
+				731D5A981DACF02600066EFC /* libTTLock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731D5A791DACEF6D00066EFC = {
+			isa = PBXGroup;
+			children = (
+				731D5A841DACEF6D00066EFC /* DoorAne */,
+				731D5A831DACEF6D00066EFC /* Products */,
+				731D5A9A1DACF07A00066EFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		731D5A831DACEF6D00066EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731D5A821DACEF6D00066EFC /* libDoorAne.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731D5A841DACEF6D00066EFC /* DoorAne */ = {
+			isa = PBXGroup;
+			children = (
+				731D5A921DACF02600066EFC /* TTLockSDK */,
+				731D5A8E1DACEFB200066EFC /* FlashRuntimeExtensions.h */,
+				731D5A8F1DACEFB200066EFC /* FRETypeConversion.h */,
+				731D5A901DACEFB200066EFC /* FRETypeConversion.m */,
+				731D5A851DACEF6D00066EFC /* DoorAne.h */,
+				731D5A861DACEF6D00066EFC /* DoorAne.m */,
+			);
+			path = DoorAne;
+			sourceTree = "<group>";
+		};
+		731D5A921DACF02600066EFC /* TTLockSDK */ = {
+			isa = PBXGroup;
+			children = (
+				731D5A931DACF02600066EFC /* libTTLock.a */,
+				731D5A941DACF02600066EFC /* README.md */,
+				731D5A951DACF02600066EFC /* SecurityUtil.h */,
+				731D5A961DACF02600066EFC /* TTLock.h */,
+				731D5A971DACF02600066EFC /* TTUtils.h */,
+			);
+			path = TTLockSDK;
+			sourceTree = "<group>";
+		};
+		731D5A9A1DACF07A00066EFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731D5A9D1DACF0F100066EFC /* Foundation.framework */,
+				731D5A9B1DACF07A00066EFC /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731D5A811DACEF6D00066EFC /* DoorAne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731D5A8B1DACEF6D00066EFC /* Build configuration list for PBXNativeTarget "DoorAne" */;
+			buildPhases = (
+				731D5A7E1DACEF6D00066EFC /* Sources */,
+				731D5A7F1DACEF6D00066EFC /* Frameworks */,
+				731D5A801DACEF6D00066EFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorAne;
+			productName = DoorAne;
+			productReference = 731D5A821DACEF6D00066EFC /* libDoorAne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731D5A7A1DACEF6D00066EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = door;
+				TargetAttributes = {
+					731D5A811DACEF6D00066EFC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 731D5A7D1DACEF6D00066EFC /* Build configuration list for PBXProject "DoorAne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 731D5A791DACEF6D00066EFC;
+			productRefGroup = 731D5A831DACEF6D00066EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731D5A811DACEF6D00066EFC /* DoorAne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731D5A7E1DACEF6D00066EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731D5A991DACF02600066EFC /* README.md in Sources */,
+				731D5A871DACEF6D00066EFC /* DoorAne.m in Sources */,
+				731D5A911DACEFB200066EFC /* FRETypeConversion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		731D5A891DACEF6D00066EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		731D5A8A1DACEF6D00066EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731D5A8C1DACEF6D00066EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DoorAne/TTLockSDK",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		731D5A8D1DACEF6D00066EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DoorAne/TTLockSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731D5A7D1DACEF6D00066EFC /* Build configuration list for PBXProject "DoorAne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D5A891DACEF6D00066EFC /* Debug */,
+				731D5A8A1DACEF6D00066EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731D5A8B1DACEF6D00066EFC /* Build configuration list for PBXNativeTarget "DoorAne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731D5A8C1DACEF6D00066EFC /* Debug */,
+				731D5A8D1DACEF6D00066EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731D5A7A1DACEF6D00066EFC /* Project object */;
+}
